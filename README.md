@@ -122,10 +122,11 @@ Raw data are intentionally excluded from version control.
 
 ```text
 notebooks/   Exploratory analysis, preprocessing, feature extraction, and modeling
-src/         Reusable processing and modeling code (planned)
-figures/     Generated plots (planned)
-reports/     Results and technical documentation
+src/         Reusable preprocessing and time-domain feature functions
+reports/     Results documentation and model card
 ```
+
+The reusable implementation is in `src/extract_features.py`. The notebooks demonstrate the full end-to-end workflow.
 
 ## Limitations
 
